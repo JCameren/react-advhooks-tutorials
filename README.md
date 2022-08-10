@@ -1,1 +1,6 @@
-# WIP
+# Udemy Adv Hook Tutorial
+In this module I learned 3 new hooks as listed in the description. Along with more examples of the useState hooks, I understand the job of React which is to respond to user input and render Ui. Anything besides that is a "side effect", like data fetching, built in browers api, and things of that nature. This is where useEffect comes in. If state is being updated with the useEffect Hook, then it should also be added as a dependency for proper re-renders.
+
+We then went into useReducer which is kinda of iffy to me still. It seems as if we can declare different types of state changes by assigning the action.type a name? And then you call on the dispatch function and declare the type? I don't know, Max did good of bringing all the concepts together with a project like the first module, so hopefully I will get a proficient amount of clarity with it like last time.
+
+The useContext api kind of bled into how Redux, from my perspective, is going to look like. It definitely proved me right in the fact that it diminishes that amount of prop drilling need to pass state in nested components. He kind of lost me with making a wrapping component that uses the mini "store" of state we had created. Seemed like overkill, but I am excited to take another crack at it in the next project.
