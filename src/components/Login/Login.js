@@ -42,7 +42,7 @@ const passwordReducer = (state, action) => {
   }
 }
 
-const Login = (props) => {
+const Login = () => {
   const authCtx = useContext(AuthContext)
   // const [enteredEmail, setEnteredEmail] = useState('');
   // const [emailIsValid, setEmailIsValid] = useState();
